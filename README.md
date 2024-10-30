@@ -39,6 +39,7 @@ Successfully started the Ollama service, enabling the local execution of large l
 Launched the Open WebUI service, which provides a web interface for interacting with these models.
 Verified that both services are up and running by accessing the Open WebUI in your browser.
 
+If you do not have a GPU available on your machine, you can skip the next optional step and continue with [Step 2](https://github.com/AdvancedNLP/llm-serving/tree/step_02).
 
 ### Optional Step: Relaunching Ollama with GPU Support
 
@@ -85,3 +86,4 @@ Verified that Docker is leveraging your NVIDIA GPU for running the models.
 
 If you do not have an NVIDIA GPU or don’t want to use GPU support, you can continue with the previous CPU-based setup without any issues.
 
+Now continue with [Step 2](https://github.com/AdvancedNLP/llm-serving/tree/step_02)
