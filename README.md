@@ -43,3 +43,4 @@ By completing this step, you have:
 - Successfully invoked the **Llama 3.2** model using the `check.py` script.
 - Confirmed that the system is correctly set up and ready to handle model interactions.
 
+Now continue with [Step 4](https://github.com/AdvancedNLP/llm-serving/tree/step_04)
