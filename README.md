@@ -31,3 +31,5 @@ By completing this step, you have:
 
 Successfully downloaded the Llama 3.2 model into the Ollama runtime environment.
 Prepared the system to handle tasks using this model, either locally or through the Open WebUI interface.
+
+Now continue with [Step 3](https://github.com/AdvancedNLP/llm-serving/tree/step_03)
