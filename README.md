@@ -39,5 +39,5 @@ By completing this step, you have:
 - Created a local account, ensuring that your data remains private and secure.
 - Successfully interacted with the **Llama 3.2** model through a user-friendly chat interface.
 
-This step marks the completion of your interactive environment setup, allowing you to continue exploring and experimenting with the language model!
+This step marks the completion of your interactive environment setup, allowing you to continue exploring and experimenting with the language model in [Step 5](https://github.com/AdvancedNLP/llm-serving/tree/step_05)
 
