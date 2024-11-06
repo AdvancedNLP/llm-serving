@@ -53,3 +53,5 @@ By completing this step, you have:
 - Verified that your environment supports hybrid interaction, allowing access to both local models (via **Ollama**) and cloud-based models (via **LiteLLM**).
   
 With this setup complete, you now have a flexible and powerful environment for interacting with various types of language models!
+
+Here you find the [complete](https://github.com/AdvancedNLP/llm-serving/tree/complete) lab resources
