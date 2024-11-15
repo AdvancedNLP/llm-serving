@@ -29,4 +29,10 @@ cd llm-serving
 
 In this repository, you will find all the necessary files that we will use to set up each of the services. Let’s dive into the setup process step by step!
 
-Now continue with [Step 1](https://github.com/AdvancedNLP/llm-serving/tree/step_01)
+Now continue with the next step. Switch the branch with:
+
+```bash
+git switch step_01
+```
+
+and continue with [Step 1](https://github.com/AdvancedNLP/llm-serving/tree/step_01)
