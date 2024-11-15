@@ -86,4 +86,10 @@ Verified that Docker is leveraging your NVIDIA GPU for running the models.
 
 If you do not have an NVIDIA GPU or don’t want to use GPU support, you can continue with the previous CPU-based setup without any issues.
 
-Now continue with [Step 2](https://github.com/AdvancedNLP/llm-serving/tree/step_02)
+Now continue with the next step. Switch the branch with:
+
+```bash
+git switch step_02
+```
+
+and continue with [Step 2](https://github.com/AdvancedNLP/llm-serving/tree/step_02)
