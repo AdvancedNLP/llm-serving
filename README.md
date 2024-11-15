@@ -44,7 +44,7 @@ This step marks the completion of your interactive environment setup, allowing y
 Now continue with the next step. Switch the branch with:
 
 ```bash
-git switch step_04
+git switch step_05
 ```
 
 and continue with [Step 5](https://github.com/AdvancedNLP/llm-serving/tree/step_05)
