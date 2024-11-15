@@ -55,3 +55,9 @@ By completing this step, you have:
 With this setup complete, you now have a flexible and powerful environment for interacting with various types of language models!
 
 Here you find the [complete](https://github.com/AdvancedNLP/llm-serving/tree/complete) lab resources
+
+Switch the branch with:
+
+```bash
+git switch complete
+```
