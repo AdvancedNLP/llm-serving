@@ -15,7 +15,7 @@ By the end of this exercise, you will have a fully functional environment where 
 
 Before you start, make sure you have the following installed on your machine:
 1. **Docker**: You can install it by following the official [Docker installation guide](https://docs.docker.com/get-docker/).
-2. **Docker Compose**: Docker Compose is usually included with Docker Desktop, but you can check your installation by running `docker-compose --version`.
+2. **Docker Compose**: Docker Compose is usually included with Docker Desktop, but you can check your installation by running `docker compose --version`.
 3. **Git**: If you don’t already have Git installed, you can download it from the [Git website](https://git-scm.com/).
 4. **Python** and **Poetry**: You can install it by following the official [Poetry installation guide](https://python-poetry.org/docs/#installation).
 
@@ -47,7 +47,7 @@ The goal of this step is to bring up both the **Ollama** and **Open WebUI** serv
 2. Run the following command to bring up the services:
 
 ```bash
-docker-compose up ollama open-webui
+docker compose up ollama open-webui
 ```
 
 This command tells Docker Compose to start both the Ollama and Open WebUI services by referencing the appropriate configurations from the `docker-compose.yaml file.
@@ -90,13 +90,13 @@ Before proceeding, ensure that:
 1. Make sure you have stopped the previous services, if they are still running:
 
 ```bash
-docker-compose down
+docker compose down
 ```
 
 2. To relaunch Ollama with GPU support, use the `docker-compose-gpu.yaml file in addition to the standard docker-compose.yaml by running:
 
 ```bash
-docker-compose -f docker-compose.yaml -f docker-compose-gpu.yaml up ollama open-webui
+docker compose -f docker-compose.yaml -f docker-compose-gpu.yaml up ollama open-webui
 ```
 
 
@@ -128,7 +128,7 @@ The goal of this step is to pull the latest version of the **Llama 3.2** model i
 1. Ensure that the **Ollama** and **Open WebUI** services are still running from the previous step. If not, start them again:
 
 ```bash
-docker-compose up ollama open-webui
+docker compose up ollama open-webui
 ```
 
 2. To download the Llama 3.2 model, execute the following command in your terminal:
@@ -197,7 +197,7 @@ The goal of this step is to access the **Open WebUI** in your browser, create a 
 1. Ensure the **Ollama** and **Open WebUI** services are still running. If they are not, restart them:
 
 ```bash
-docker-compose up ollama open-webui
+docker compose up ollama open-webui
 ```
 
 2. Open your browser and navigate to the **Open WebUI** at:
@@ -259,7 +259,7 @@ The goal of this step is to set up **LiteLLM** as a proxy service, allowing the 
    Once the `.env` file is configured, you can start the **LiteLLM** proxy service by combining the primary Docker Compose file with the `docker-compose.proxy.yaml` file:
 
    ```bash
-   docker-compose -f docker-compose.yaml -f docker-compose.proxy.yaml up
+   docker compose -f docker-compose.yaml -f docker-compose.proxy.yaml up
    ```
 
    This command will launch the **LiteLLM** service alongside **Ollama** and **Open WebUI**, routing any calls to **GPT-4o** via **LiteLLM**.
