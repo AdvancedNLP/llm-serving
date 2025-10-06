@@ -13,7 +13,7 @@ The goal of this step is to pull the latest version of the **Llama 3.2** model i
 1. Ensure that the **Ollama** and **Open WebUI** services are still running from the previous step. If not, start them again:
 
 ```bash
-docker-compose up ollama open-webui
+docker compose up ollama open-webui
 ```
 
 2. To download the Llama 3.2 model, execute the following command in your terminal:
