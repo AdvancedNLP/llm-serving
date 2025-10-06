@@ -34,7 +34,7 @@ The goal of this step is to set up **LiteLLM** as a proxy service, allowing the 
    Once the `.env` file is configured, you can start the **LiteLLM** proxy service by combining the primary Docker Compose file with the `docker-compose.proxy.yaml` file:
 
    ```bash
-   docker-compose -f docker-compose.yaml -f docker-compose.proxy.yaml up
+   docker compose -f docker-compose.yaml -f docker-compose.proxy.yaml up
    ```
 
    This command will launch the **LiteLLM** service alongside **Ollama** and **Open WebUI**, routing any calls to **GPT-4o** via **LiteLLM**.
@@ -43,7 +43,8 @@ The goal of this step is to set up **LiteLLM** as a proxy service, allowing the 
 
    Check the logs to ensure all services are running smoothly and that the **LiteLLM** proxy is ready to handle requests to the cloud-based model.
 
-4. ** Use GPT-4o in the Open WebUI**
+4. **Use GPT-4o in the Open WebUI**
+
    Now that the **LiteLLM** proxy is set up, you can use the **Open WebUI** to interact with the **GPT-4o** model. Launch the **Open WebUI** and navigate to the chat interface. You should now see a new option for **GPT-4o**.
 
 #### What You’ve Achieved
