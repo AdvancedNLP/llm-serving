@@ -13,13 +13,13 @@ The goal of this step is to access the **Open WebUI** in your browser, create a 
 1. Ensure the **Ollama** and **Open WebUI** services are still running. If they are not, restart them:
 
 ```bash
-docker-compose up ollama open-webui
+docker compose up ollama open-webui
 ```
 
 2. Open your browser and navigate to the **Open WebUI** at:
 
 ```
-http://localhost:3000'
+http://localhost:3000
 ```
 
 3. You will be prompted to create an account. **Rest assured, all information you provide remains stored locally on your machine and does not leave your environment**. This ensures your privacy and control over any data you input.
