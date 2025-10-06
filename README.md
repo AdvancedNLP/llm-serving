@@ -23,7 +23,7 @@ This will install all the dependencies specified in the `pyproject.toml` file.
 2.Ensure that the **Ollama** and **Open WebUI** services are still running from the previous step. If not, start them again:
 
 ```bash
-docker-compose up ollama open-webui
+docker compose up ollama open-webui
 ```
 
 3. Once the dependencies are installed, you can invoke the `check.py` script to interact with the **Llama 3.2** model:
