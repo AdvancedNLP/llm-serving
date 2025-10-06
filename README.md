@@ -203,7 +203,7 @@ docker compose up ollama open-webui
 2. Open your browser and navigate to the **Open WebUI** at:
 
 ```
-http://localhost:3000'
+http://localhost:3000
 ```
 
 3. You will be prompted to create an account. **Rest assured, all information you provide remains stored locally on your machine and does not leave your environment**. This ensures your privacy and control over any data you input.
@@ -268,7 +268,8 @@ The goal of this step is to set up **LiteLLM** as a proxy service, allowing the 
 
    Check the logs to ensure all services are running smoothly and that the **LiteLLM** proxy is ready to handle requests to the cloud-based model.
 
-4. ** Use GPT-4o in the Open WebUI**
+4. **Use GPT-4o in the Open WebUI**
+
    Now that the **LiteLLM** proxy is set up, you can use the **Open WebUI** to interact with the **GPT-4o** model. Launch the **Open WebUI** and navigate to the chat interface. You should now see a new option for **GPT-4o**.
 
 #### What You’ve Achieved
