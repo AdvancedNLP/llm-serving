@@ -17,7 +17,7 @@ The goal of this step is to bring up both the **Ollama** and **Open WebUI** serv
 2. Run the following command to bring up the services:
 
 ```bash
-docker-compose up ollama open-webui
+docker compose up ollama open-webui
 ```
 
 This command tells Docker Compose to start both the Ollama and Open WebUI services by referencing the appropriate configurations from the `docker-compose.yaml file.
@@ -61,13 +61,13 @@ Before proceeding, ensure that:
 1. Make sure you have stopped the previous services, if they are still running:
 
 ```bash
-docker-compose down
+docker compose down
 ```
 
 2. To relaunch Ollama with GPU support, use the `docker-compose-gpu.yaml file in addition to the standard docker-compose.yaml by running:
 
 ```bash
-docker-compose -f docker-compose.yaml -f docker-compose-gpu.yaml up ollama open-webui
+docker compose -f docker-compose.yaml -f docker-compose-gpu.yaml up ollama open-webui
 ```
 
 
