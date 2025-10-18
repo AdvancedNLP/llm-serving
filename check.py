@@ -1,7 +1,7 @@
 import ollama
 
 if __name__ == '__main__':
-    client = ollama.Client(host='http://127.0.0.1:11434')
+    client = ollama.Client(host='http://localhost:11434')
     print(f'{client.list()=}')
 
     messages = [
