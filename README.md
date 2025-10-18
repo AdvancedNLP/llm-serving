@@ -67,7 +67,7 @@ docker compose down
 2. To relaunch Ollama with GPU support, use the `docker-compose-gpu.yaml file in addition to the standard docker-compose.yaml by running:
 
 ```bash
-docker compose -f docker-compose.yaml -f docker-compose-gpu.yaml up ollama open-webui
+docker compose -f docker-compose.yaml -f docker-compose.gpu.yaml up ollama open-webui
 ```
 
 
