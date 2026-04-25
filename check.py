@@ -1,8 +1,15 @@
 import ollama
 
+MODEL = 'llama3.2:latest'
+
 if __name__ == '__main__':
     client = ollama.Client(host='http://localhost:11434')
-    print(f'{client.list()=}')
+
+    print("Available models:")
+    models = [model.model for model in client.list().models]
+    print(models)
+
+    assert MODEL in models, f"{MODEL} not available"
 
     messages = [
         {
@@ -12,5 +19,5 @@ if __name__ == '__main__':
     ]
     print('Why is the sky blue? Answer in German')
     print('Answer:', end='')
-    for chunk in client.chat('llama3.2:latest', messages=messages, stream=True):
+    for chunk in client.chat(MODEL, messages=messages, stream=True):
         print(chunk['message']['content'], end='', flush=True)
