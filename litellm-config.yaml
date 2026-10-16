@@ -1,7 +1,7 @@
 model_list:
-  - model_name: openai-gpt-4o
+  - model_name: openai-gpt-5.4-luna
     litellm_params:
-      model: text-completion-openai/gpt-4o
+      model: openai/gpt-5.6-luna
       api_key: os.environ/OPENAI_API_KEY
 
   - model_name: azure-gpt-4o
