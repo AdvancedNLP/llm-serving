@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   ollama:
-    container_name: ollama
+    container_name: ollama-serving
     pull_policy: always
     tty: true
     restart: unless-stopped
@@ -15,7 +15,7 @@ services:
 
   open-webui:
     image: ghcr.io/open-webui/open-webui:latest
-    container_name: open-webui
+    container_name: open-webui-serving
     depends_on:
       - ollama
     ports:

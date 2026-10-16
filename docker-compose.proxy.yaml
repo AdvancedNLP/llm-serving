@@ -1,14 +1,14 @@
 services:
   open-webui:
       environment:
-        - "OPENAI_API_BASE_URL=http://litellm-proxy:8000/v1"
+        - "OPENAI_API_BASE_URL=http://litellm-proxy-serving:8000/v1"
       env_file:
         - .env
       depends_on:
         - litellm-proxy
 
   litellm-proxy:
-      container_name: litellm-proxy
+      container_name: litellm-proxy-serving
       image: ghcr.io/berriai/litellm:main-v1.40.4
       ports:
         - ${LITELLM_PORT-4000}:8000
