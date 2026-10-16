@@ -1,8 +1,9 @@
 model_list:
-  - model_name: openai-gpt-5.4-luna
+  - model_name: openai-gpt-5.6-luna
     litellm_params:
       model: openai/gpt-5.6-luna
       api_key: os.environ/OPENAI_API_KEY
+      reasoning_effort: none
 
   - model_name: azure-gpt-4o
     litellm_params:

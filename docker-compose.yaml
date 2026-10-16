@@ -14,7 +14,7 @@ services:
       - ./data/ollama:/root/.ollama
 
   open-webui:
-    image: ghcr.io/open-webui/open-webui:latest
+    image: ghcr.io/open-webui/open-webui:v0.12.3
     container_name: open-webui-serving
     depends_on:
       - ollama
