@@ -1,6 +1,6 @@
 # llm-serving
 
-### Step 5: Settin### Step 5: Setting up the LiteLLM Proxy for GPT Integration
+### Step 5: Setting up the LiteLLM Proxy for GPT Integration
 
 In this step, we’ll configure the **LiteLLM** proxy service to allow for interaction with the **GPT** model. This setup supports **GPT** through either OpenAI's API or Azure's deployment.
 
