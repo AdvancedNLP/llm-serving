@@ -17,7 +17,7 @@ Before you start, make sure you have the following installed on your machine:
 1. **Docker**: You can install it by following the official [Docker installation guide](https://docs.docker.com/get-docker/).
 2. **Docker Compose**: Docker Compose is usually included with Docker Desktop, but you can check your installation by running `docker-compose --version`.
 3. **Git**: If you don’t already have Git installed, you can download it from the [Git website](https://git-scm.com/).
-4. **Python** and **Poetry**: You can install it by following the official [Poetry installation guide](https://python-poetry.org/docs/#installation).
+4. **Python** and **uv**: You can install it by following the official [uv installation guide]([https://python-poetry.org/docs/#installation](https://docs.astral.sh/uv/getting-started/installation/)).
 
 Once the prerequisites are met, you are ready to clone the repository and start working through the setup.
 
